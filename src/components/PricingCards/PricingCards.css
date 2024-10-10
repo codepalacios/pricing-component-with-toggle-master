@@ -1,0 +1,7 @@
+/* Mobile styles */
+.pricing-cards {
+  margin-bottom: 4.4375rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

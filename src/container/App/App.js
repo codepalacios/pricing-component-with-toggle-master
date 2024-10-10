@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <PricingProvider>
-      <main>
+      <main className="pricing-component">
         <PricingPlans />
         <PricingCards />
       </main>

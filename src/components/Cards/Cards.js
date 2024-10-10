@@ -2,13 +2,16 @@ import "./Cards.css";
 
 function Cards({ plan, price, storage, usersAllowed, sendLimit }) {
   return (
-    <article>
-      <h2>{plan}</h2>
-      <p>${price}</p>
-      <p>{storage} Storage</p>
-      <p>{usersAllowed} Users Allowed</p>
-      <p>Send up to {sendLimit}</p>
-      <button>LEARN MORE</button>
+    <article className="cards">
+      <h2 className="cards__plan">{plan}</h2>
+      <div className="cards__price-container">
+        <p className="price-container__dollar">$</p>
+        <p className="price-container__price">{price}</p>
+      </div>
+      <p className="cards__storage">{storage} Storage</p>
+      <p className="cards__users">{usersAllowed} Users Allowed</p>
+      <p className="cards__send">Send up to {sendLimit}</p>
+      <button className="cards__button">LEARN MORE</button>
     </article>
   );
 }

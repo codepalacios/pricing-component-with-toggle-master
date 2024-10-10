@@ -7,7 +7,7 @@ function PricingCards() {
   const { plansData } = React.useContext(PricingContext);
 
   return (
-    <section>
+    <section className="pricing-cards">
       {plansData.map((plan, index) => (
         <Cards
           key={index}

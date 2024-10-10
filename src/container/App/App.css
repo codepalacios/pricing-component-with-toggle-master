@@ -1,0 +1,14 @@
+/* Mobile styles */
+body {
+  background-color: var(--very-light-grayish-blue);
+  background-image: url("../../assets/images/bg-top.svg");
+  background-repeat: no-repeat;
+  background-position: top -40px right -12.25rem;
+}
+
+.pricing-component {
+  font-family: "Montserrat";
+  text-align: center;
+  max-width: 26.5625rem;
+  margin: 0 auto;
+}

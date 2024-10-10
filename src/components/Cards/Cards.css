@@ -1,0 +1,102 @@
+/* Mobile styles */
+.cards {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding: 1.9375rem 29px;
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1.75rem;
+  color: var(--grayish-blue);
+}
+
+.cards > * {
+  border-bottom: 1px solid var(--grayish-blue);
+  border-bottom: 1px solid rgba(110, 114, 142, 0.25);
+}
+
+.cards:nth-child(2) {
+  background: linear-gradient(135deg, #a2a7f0 0%, #696edd 100%);
+}
+
+.cards:nth-child(2) .cards__plan {
+  border-bottom: none;
+}
+
+.cards:nth-child(2) > * {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.cards:nth-child(2) .cards__button {
+  background: #ffffff;
+  color: #6d72de;
+}
+
+.cards:nth-child(2) .cards__button:hover {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.cards__plan {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  border-bottom: none;
+}
+
+.cards__price-container {
+  color: var(--dark-grayish-blue);
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 7.49px;
+  word-break: break-all;
+}
+
+.price-container__dollar {
+  font-size: 2.5rem;
+  line-height: 3.0625rem;
+  letter-spacing: -1.2px;
+}
+
+.price-container__price {
+  font-size: 4.5rem;
+  line-height: 4.4375rem;
+  letter-spacing: -2.16px;
+}
+
+.cards__storage,
+.cards__users,
+.cards__send {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.cards__button {
+  margin-top: 2rem;
+  width: 100%;
+  height: 2.75rem;
+  background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  border-radius: 6px;
+  border: none;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  letter-spacing: 1.39286px;
+  color: #ffffff;
+}
+
+.cards__button:hover {
+  cursor: pointer;
+  border: 1px solid #6d72de;
+  color: #6d72de;
+  background: #ffffff;
+}
