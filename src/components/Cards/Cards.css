@@ -100,3 +100,32 @@
   color: #6d72de;
   background: #ffffff;
 }
+
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+  .cards {
+    margin: 0;
+    padding: 1.9375rem 31px;
+    font-size: 0.9375rem;
+    line-height: 1.75rem;
+    height: min-content;
+    width: 100%;
+  }
+
+  .cards:nth-child(1) {
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .cards:nth-child(2) {
+    padding-top: 3.4375rem;
+    padding-bottom: 3.4375rem;
+  }
+
+  .cards:nth-child(3) {
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .cards__price-container {
+    column-gap: 8px;
+  }
+}

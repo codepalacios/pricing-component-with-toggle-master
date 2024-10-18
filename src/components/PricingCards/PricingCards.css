@@ -5,3 +5,16 @@
   flex-direction: column;
   gap: 2rem;
 }
+
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+  .pricing-cards {
+    padding: 0 1rem;
+    margin-bottom: 6.4375rem;
+    flex-direction: row;
+    gap: 0;
+    align-items: center;
+    width: 100%;
+    max-width: 67.625rem;
+  }
+}

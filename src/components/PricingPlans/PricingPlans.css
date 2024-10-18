@@ -51,10 +51,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    hsl(236, 72%, 79%),
-    hsl(237, 63%, 64%)
-  ); /* Gradiente de fondo */
+  background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -99,4 +96,11 @@
 .container__monthly {
   mix-blend-mode: normal;
   opacity: 0.5;
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+  .pricing-plans {
+    margin: 4.4375rem 0 4rem;
+  }
 }
