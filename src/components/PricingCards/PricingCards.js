@@ -3,9 +3,12 @@ import { PricingContext } from "../../context/PricingContext";
 import { Cards } from "../Cards/Cards";
 import "./PricingCards.css";
 
+// Creating the component for pricing plan cards
 function PricingCards() {
+  // Using context to get pricing plans data
   const { plansData } = React.useContext(PricingContext);
 
+  // Returning the component with the pricing plans cards
   return (
     <section className="pricing-cards">
       {plansData.map((plan, index) => (

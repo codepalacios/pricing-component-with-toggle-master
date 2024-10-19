@@ -1,5 +1,6 @@
 import "./Cards.css";
 
+// Creation of the cards component that contains the plan price data
 function Cards({ plan, price, storage, usersAllowed, sendLimit }) {
   return (
     <article className="cards">
